@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Todo list App</title>
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="./style.css" type="text/css" media="screen" charset="utf-8">    
+  </head>
+  <body>
+    <div class="container">
+      <p>
+        <label for="new-task">Todo-List 2022</label><input id="new-task" type="text" value="Veuillez entrer une tache"><button>Ajouter une tache</button>
+      </p>
+      
+      <h3>Todo</h3>
+      <ul id="incomplete-tasks">
+        <li><input type="checkbox"><label>Travailler</label><input type="text"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+        <li class="editMode"><input type="checkbox"><label>Faire un chifoumi</label><input type="text" value="Faire un chifoumi"><button class="edit">Save</button><button class="delete">Delete</button></li>
+       
+        <li class="editMode"><input type="checkbox"><label>Appli le pendu</label><input type="text" value="Appli le pendu"><button class="edit">Save</button><button class="delete">Delete</button></li>
+      </ul>
+      
+      <h3>Completed</h3>
+      <ul id="completed-tasks">
+        <li><input type="checkbox" checked><label>retravailler</label><input type="text"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+      </ul>
+    </div>
+
+    <script type="text/javascript" src="todolist.js"></script>
+
+  </body>
+</html>
